@@ -1,0 +1,77 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container{
+    margin-top: 20vh;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #202329;
+}
+.card{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #3C3E44;
+    border-radius: 10px;
+    width: 30vw;
+    height: 225px;
+}
+h1{
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+}
+h3{
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+}
+h4{
+    padding-top: 20px;
+    color: gray;
+    font-size: 12px;
+}
+p{
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.banner{
+    width: 40%;
+    object-fit: cover;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.info{
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 50%;
+}
+.status{
+    align-items: center;
+}
+.dead{
+    height: 7px;
+    width: 7px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+.alive{
+    height: 7px;
+    width: 7px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+.status{
+    display: flex;
+    flex-direction: row;
+}
